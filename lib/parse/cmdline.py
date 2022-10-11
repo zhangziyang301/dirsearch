@@ -484,9 +484,9 @@ def parse_arguments():
         "-o",
         "--output",
         action="store",
-        dest="output_file",
-        metavar="PATH",
-        help="Output file",
+        dest="output",
+        metavar="PATH/URL",
+        help="Output file or MySQL/PostgreSQL URL (Format: (mysql|postgresql)://[username:password@]host[:port]/database-name)",
     )
     output.add_option(
         "--format",

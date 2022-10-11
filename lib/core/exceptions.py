@@ -33,6 +33,10 @@ class RequestException(Exception):
     pass
 
 
+class SavingOutputException(Exception):
+    pass
+
+
 class SkipTargetInterrupt(Exception):
     pass
 
